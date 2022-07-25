@@ -1,6 +1,6 @@
 # HTML
 
-## Section 1: [The Essentials](#)
+## Section 1: [The Essentials](https://codepen.io/b-renz/full/rNdwYPG)
 *Focus:*
 1. Headings and Paragraph Elements
 2. Ordered and Unordered Lists
