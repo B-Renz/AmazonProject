@@ -16,5 +16,19 @@
 	*Basic but expected. Simplicity of it is nice though... feels succinct.* 
 	*Needs callapsable/expandable feature on list-items* 
   
-## Section 2: [Semantics](#)
+## Section 2: [Semantics](https://codepen.io/b-renz/full/YzarGbm)
 *Focus:*
+1. Divs and Spans (block vs. inline elements)
+2. Superscripts/Subscripts and Code Entities
+3. Semantic Markup and Accessibility 
+
+**Accomplished**
+- Created a header and footer element and nested a nav element within the header element
+- Deleted Ordered List to include nav list items [Infrastructure, Devices, Clean-Up]
+- Created Sections in <main> element [Infrastructure, Devices, Clean-Up]
+- Added alt text to each anchor element
+- Created span and div elements to encapsulate data groups within each <main> element
+- Tested webpage with Orca gnome screen reader to ensure accuracy and accessibility
+
+**Thoughts?**
+	*None* 
