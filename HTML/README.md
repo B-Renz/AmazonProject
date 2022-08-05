@@ -32,3 +32,18 @@
 
 **Thoughts?**
 	*None* 
+	
+## Section 3: [Forms & Tables](https://codepen.io/b-renz/full/yLKvQep)
+*Focus:*
+1. Table and Form element basics
+2. Buttons and Labels
+3. Range/Text Area and Form validation
+
+**Accomplished**
+- Took out the header and included list items in nav as a checkbox form
+- Created a drop-down list for Site ID selection with a submit button
+- Created tables in Infrastructure section and included data items [Rack location, MAC ID, Serial #, Asset #]
+- Created tables for Teams under Devices/Laptops
+
+**Thoughts?**
+	*None*
