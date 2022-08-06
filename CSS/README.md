@@ -19,6 +19,6 @@ simplicity of this section.
 
 | *New* | *Old* |
 | ----- | ----- |
-|<img src="https://udemy-webdev.s3.us-west-2.amazonaws.com/README-Media/New-CSS-Section1-cropped.gif"> | <img src="https://udemy-webdev.s3.us-west-2.amazonaws.com/README-Media/Old-CSS-Section1-cropped.gif"> |
+| ![](https://github.com/B-Renz/Udemy-WebDev/blob/d7f8584a47cb06e8fb16473aab0fba40e5e8000e/Images/New-CSS-Section1-cropped.gif) | ![](https://github.com/B-Renz/Udemy-WebDev/blob/d7f8584a47cb06e8fb16473aab0fba40e5e8000e/Images/Old-CSS-Section1-cropped.gif) |
 
 ## Section 2: Box Model and Advanced Properties
