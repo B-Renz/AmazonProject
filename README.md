@@ -19,7 +19,7 @@ I felt like a divide and conquor strategy would be best for the architecture of 
 
 Each Section quickly summarizes the scope of the lesson to get a better understanding of each phase in the project:
 - **[HTML](/HTML)** [[The Essentials](HTML/README.md/#section-1-the-essentials), [Semantics](HTML/README.md/#section-2-semantics), [Forms and Tables](HTML/README.md/#section-3-forms-tables)]
-- CSS [Basics, Selectors, Box Model, Advanced Properties, Responsive and Flex Box, Frameworks and Bootstrap]
+- CSS [[Basics and Selectors](https://github.com/B-Renz/Udemy-WebDev/tree/main/CSS#section-1-basics-selectors-and-specificity), Box Model and Advanced Properties, Responsive and Flex Box, Frameworks and Bootstrap]
 - Javascript [Basics, Strings and More, Decision Making, Arrays, Object Literals, Functions, Callbacks and Array Methods, Advanced]
 - DOM
 - Score Keeper
