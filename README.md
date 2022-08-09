@@ -49,7 +49,7 @@ Essentially, there are three sections: Form, Fetched-Data, and Map
 Form will act as a collapsable menu that controls what data is viewed within the Fetched-Data section
 Fetched-Data section will have data items that can control the display of the Map section
 
-![design-diagram](Images/Design-Diagram.gif)
+![design-diagram](Images/readmeMAIN/design-diagram-update.gif)
 
 <hr>
 
