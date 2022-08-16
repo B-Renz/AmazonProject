@@ -1,0 +1,93 @@
+/*Universal selectors*/
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1f1b29;
+}
+
+.btn {
+    margin: 50px;
+    padding: 5px;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: none;
+    color: #ffff;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+/*----------*/
+/* Button 4 */
+#Btn4Container {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+#Btn4Container>* {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.colorBox {
+    background-color: #1f1b29;
+    font-size: .9em;
+    transition: all 1s ease-in-out;
+}
+
+#rotated-border {
+    box-sizing: border-box;
+    border: 6px #eb311f solid;
+    box-shadow: 0 0 10px #eb311f, inset 0 0 20px #eb311f;
+    opacity: 0;
+    -webkit-transition: all 1s ease-in-out 2s;
+    -moz-transition: all 1s ease-in-out 2s;
+    -o-transition: all 1s ease-in-out 2s;
+    transition: all 1s ease-in-out;
+}
+
+.blend>* {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* Establishes our grid */
+.grid1,
+.grid2 {
+    display: grid;
+    grid: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+/* Adds white to quadrants with this attribute */
+[data-white] {
+    background-color: white;
+}
+
+.blend {
+    mix-blend-mode: multiply;
+}
+
+.grid2 {
+    cursor: pointer;
+}
+
+#Btn4Container:hover>#rotated-border,
+#Btn4Container:focus>#rotated-border {
+    opacity: 1;
+    transform: rotate(45deg);
+}
+
+/*--------------*/

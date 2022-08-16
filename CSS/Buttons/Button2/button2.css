@@ -1,0 +1,63 @@
+/*Universal selectors*/
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1f1b29;
+}
+
+.btn {
+    margin: 50px;
+    padding: 5px;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: none;
+    color: #ffff;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+/*----------*/
+/*Button 2*/
+#Btn2 {
+    background-color: #1f1b29;
+    margin: 0 0 100px 0;
+    transition: background-color 1s, box-shadow 0.5s, transform 0.25s;
+}
+
+#Btn2:hover,
+#Btn2:focus {
+    background-color: #33fff4;
+    box-shadow: inset 0em 0em 0em 1.9em #1f1b29;
+}
+
+
+#Button2 {
+    color: #ffff;
+    border-radius: 15px;
+    transition: border-radius 0.25s, color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+
+#Button2:hover,
+#Button2:focus {
+    color: #ffff;
+    background-color: #1f1b29;
+    border-radius: 48%;
+    box-shadow: 0em 0em 3em 0.3em #33fff4;
+    text-shadow: 0.1em 0.1em 1em #33FFF4;
+    transition: border-radius 0.8s, transform 0.5s, text-shadow 2s;
+    cursor: pointer;
+}
+
+/*----------*/

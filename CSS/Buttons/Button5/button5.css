@@ -1,0 +1,93 @@
+/*Universal selectors*/
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1f1b29;
+}
+
+.btn {
+    margin: 50px;
+    padding: 5px;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: none;
+    color: #ffff;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+/*----------*/
+/*Button 5*/
+
+#Btn5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "overlap";
+    margin: 100px 0;
+}
+
+
+
+.btn5Feature {
+    padding: 5px;
+    grid-area: overlap;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.btn5Block {
+    padding: 5px;
+    grid-area: overlap;
+    z-index: 1;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btn5Feature:hover,
+.button5:hover,
+.btn5Feature:focus,
+.button5:focus {
+    cursor: pointer;
+}
+
+#Button5a,
+#Button5b {
+    border: #1f1b29 .1px solid;
+    background-color: #1f1b29;
+    opacity: .8;
+    margin: 0;
+    transition: all 1s ease-in-out;
+}
+
+.btn5Feature:hover>#Button5a,
+.btn5Feature:focus>#Button5a {
+    margin-right: 45px;
+    box-shadow: 12px 0 30px -14px #f9ffb3;
+}
+
+.btn5Feature:hover>#Button5b,
+.btn5Feature:focus>#Button5b {
+    margin-left: 45px;
+
+    box-shadow: -12px 0 30px -14px #f9ffb3;
+}
+
+.button55 {
+    color: #f9ffb3;
+    border-style: inset;
+}

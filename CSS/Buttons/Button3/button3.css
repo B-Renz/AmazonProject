@@ -1,0 +1,132 @@
+/*Universal selectors*/
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1f1b29;
+}
+
+.btn {
+    margin: 50px;
+    padding: 5px;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: none;
+    color: #ffff;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+/*----------*/
+/*Button 3*/
+
+#Btn3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "overlap";
+    width: 100%;
+    margin: 0 0 100px 0;
+}
+
+.btn3Feature {
+    grid-area: overlap;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.btn3Block {
+    grid-area: overlap;
+    z-index: 9;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#Button3,
+.button3,
+.button33 {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+}
+
+.button33 {
+    background-color: #1f1b29;
+    font-size: .9em;
+    padding: 0;
+}
+
+.button3 {
+    display: none;
+    transition-delay: 3s;
+    color: #463c5f;
+}
+
+
+.btn3Block>.button33:hover,
+.btn3Block>.button33:focus {
+    cursor: pointer;
+}
+
+.btn3Block:hover~.btn3Feature>.button3,
+.btn3Block:focus~.btn3Feature>.button3 {
+    display: flex;
+    animation: pulse-it 3s infinite;
+
+}
+
+@keyframes pulse-it {
+    0% {
+        margin: 0 0 0 0;
+    }
+
+    50% {
+        margin: 0 5%;
+    }
+
+    100% {
+        margin: 0 0 0 0;
+    }
+}
+
+.btn3Block:hover>.button33,
+.btn3Block:focus>.button33 {
+    scale: 120%;
+    animation: back-pulse 3s infinite;
+}
+
+@keyframes back-pulse {
+    0% {
+
+        box-shadow: 0 0 1.5em 0.2em #f9ffb3;
+    }
+
+    50% {
+
+        box-shadow: 0 0 2.5em .3em #f9ffb3;
+    }
+
+    100% {
+
+        box-shadow: 0 0 1.5em 0.2em #f9ffb3;
+    }
+}
+
+/* -------- */
