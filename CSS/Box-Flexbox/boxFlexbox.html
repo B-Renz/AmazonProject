@@ -5,56 +5,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Selector-Specificity/styles.css">
-    <title>CSS: Specificity</title>
+    <link rel="stylesheet" href="boxFlexbox.css">
+    <title>CSS: Flexbox</title>
 </head>
 
 <body>
-
     <main>
-        <h1>Warehouse Inventory</h1>
-        <section id="HeaderForm">
-            <div>
-                <form action="">
-                    <label for="site">SITE ID: </label>
-                    <select name="site" id="site">
-                        <option value="1a">1A</option>
-                        <option value="1b">1B</option>
-                        <option value="1c">1C</option>
-                        <option value="1d">1D</option>
-                        <option value="1e">1E</option>
-                    </select>
-                </form>
+        <section id="navBar">
 
-                <a alt="link to Map" href="#Map">Site Map</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+
+            <div id="container">
+                <div class="hideMe"><a href="#">{$SITE}</a></div>
+                <div class="hideMe"><a href="#">LOCATION</a></div>
+                <div class="hideMe"><a href="#">SITE-MAP</a></div>
+                <div class="hideMe"><a href="#">INFRA<span>STRUCTURE</span> </a></div>
+                <div class="hideMe"><a href="#">DEVICES</a></div>
+                <div class="hideMe"><a href="#">CLEAN-UP</a></div>
+                <div class="siteSelectBtn hideMe"><a href="#">+</a></div>
             </div>
-            <div>
-                <p>LOCATION: </p>
-                <div class="googlemaps">
-                    <a class="googlemaps-link" alt="A link to google maps showing 749 Toland Street in San Francisco"
-                        href="https://www.google.com/maps/place/DCK6+Amazon+Delivery+Station/@37.7426623,-122.4020037,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7fbdf0bb575f:0x2133a20fb607bf30!8m2!3d37.7426623!4d-122.399815">749
-                        Toland Street</a>
-                    <img src="https://www.google.com/maps/vt/data=OH1bI6sk2HKee_UWehYZCjNwA14vCZsl3sDoRTBkAzSVGbXhWhyZXYDXT9HeDnEylHtEuIPbREwQ0tdLK017DXlmP1t9gKtqbxTHsYQ_dLiL4m2SFxfHFr5T183rRqRVhv_OpkjO40C-IWqWpDyG1qSvNWk"
-                        class="googlemaps-img" alt="Map of 749 Toland St San Francisco, CA">
+        </section>
+
+        <section id="Home">
+            <div class="status">
+                <h3>Status</h3>
+                <div>
+                    <div>MDF</div>
+                    <div><a href="#">{$status}</a></div>
+                </div>
+                <div>
+                    <div>IDF</div>
+                    <div><a href="#">{$status}</a></div>
+                </div>
+                <div>
+                    <div>WIFI</div>
+                    <div><a href="#">{$status}</a></div>
+                </div>
+                <div>
+                    <div>Tickets</div>
+                    <div><a href="#">{$status}</a></div>
                 </div>
             </div>
-            <div id="InventoryChoice">
 
-                <input type="checkbox" name="all" id="all">
-                <label for="all">All</label>
-
-                <input type="checkbox" name="infra" id="infra">
-                <label for="infra">Infrastructure</label>
-
-                <input type="checkbox" name="dev" id="dev">
-                <label for="dev">Devices</label>
-
-                <input type="checkbox" name="clean" id="clean">
-                <label for="clean">Clean-Up</label>
-
+            <div class="contacts">
+                <h3>Contacts</h3>
+                <div>
+                    <img class="profilePic"
+                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait10.jpg"
+                        alt="associate pic">
+                    <div>Site Manager</div>
+                    <div><a href="#">@**eni</a></div>
+                </div>
+                <div>
+                    <img class="profilePic"
+                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait11.jpg"
+                        alt="associate pic">
+                    <div>IT Manager</div>
+                    <div><a href="#">@**enc</a></div>
+                </div>
+                <div>
+                    <img class="profilePic"
+                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait15.jpg"
+                        alt="associate pic">
+                    <div>Local IT</div>
+                    <div><a href="#">@**mon</a></div>
+                </div>
+                <div>
+                    <img class="profilePic"
+                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait15.jpg"
+                        alt="associate pic">
+                    <div>Facilities</div>
+                    <div><a href="#">@**men</a></div>
+                </div>
             </div>
-            <div id="ShowInventory">
-                <button class="headFormButton">Show Inventory</button>
+
+            <div class="maps">
+                <div class="googlemaps">
+                    <div>
+                        <a class="googlemaps-link"
+                            alt="A link to google maps showing 749 Toland Street in San Francisco"
+                            href="https://www.google.com/maps/place/DCK6+Amazon+Delivery+Station/@37.7426623,-122.4020037,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7fbdf0bb575f:0x2133a20fb607bf30!8m2!3d37.7426623!4d-122.399815">749
+                            Toland Street</a>
+                    </div>
+                    <div>
+                        <img src="https://www.google.com/maps/vt/data=OH1bI6sk2HKee_UWehYZCjNwA14vCZsl3sDoRTBkAzSVGbXhWhyZXYDXT9HeDnEylHtEuIPbREwQ0tdLK017DXlmP1t9gKtqbxTHsYQ_dLiL4m2SFxfHFr5T183rRqRVhv_OpkjO40C-IWqWpDyG1qSvNWk"
+                            class="googlemaps-img" alt="Map of 749 Toland St San Francisco, CA">
+                    </div>
+                </div>
+            </div>
+
+            <div class="vendors">
+                <h3>Vendors</h3>
+                <div>
+                    <h4>ISPs</h4>
+                    <div>
+                        <div>ATT</div>
+                        <div>(123)456-7890</div>
+                        <div>SLA</div>
+                        <div>email</div>
+                    </div>
+                    <div>
+                        <div>Comcast</div>
+                        <div>(321)654-0987</div>
+                        <div>SLA</div>
+                        <div>email</div>
+                    </div>
+                </div>
+                <div>
+                    <h4>Comm</h4>
+                    <div>
+                        <div>IES</div>
+                        <div>(415)455-7899</div>
+                        <div>SLA</div>
+                        <div>email</div>
+                    </div>
+                    <div>
+                        <div>Cisco</div>
+                        <div>(415)154-3987</div>
+                        <div>SLA</div>
+                        <div>email</div>
+                    </div>
+                    <div>
+                        <div>Juniper</div>
+                        <div>(321)665-9917</div>
+                        <div>SLA</div>
+                        <div>email</div>
+                    </div>
+                </div>
+                <div>
+                    <h4>Facilities</h4>
+                    <div>
+                        <div>Mark3</div>
+                        <div>(415)955-7349</div>
+                        <div>SLA</div>
+                        <div>email</div>
+                    </div>
+                    <div>
+                        <div>JLL</div>
+                        <div>(415)154-3987</div>
+                        <div>SLA</div>
+                        <div>email</div>
+                    </div>
+                </div>
             </div>
         </section>
 
