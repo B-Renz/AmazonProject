@@ -506,3 +506,85 @@ td {
     width: 90%;
     text-align: center;
 }
+
+#Devices .device-container>div>div>ul>li {
+    height: 30px;
+    overflow: hidden;
+    /* text-align: left; */
+    /* transition: all 1s ease-in-out; */
+
+}
+
+#Devices .device-container>div>div>ul>li:hover,
+#Devices .device-container>div>div>ul>li:focus {
+    height: 100%;
+}
+
+#Devices .infra-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#Devices .infra-links>a {
+    background-color: #00557B;
+    color: #fff;
+    padding: 3px 17px;
+    border-radius: 30px;
+}
+
+#Devices h3 {
+    background-color: #eaeced;
+    margin-top: 0;
+}
+
+#Devices .device-container>div.laptop-container,
+#Devices .device-container>div.avery-container,
+#Devices .device-container>div.zebra57-container,
+#Devices .device-container>div.zebraRing-container,
+#Devices .device-container>div.tablets-container,
+#Devices .device-container>div.printers-container,
+#Devices .device-container>div.periph-container {
+    border: 1px solid #c2ccd6;
+    width: 90%;
+    margin: 5px auto;
+    padding-bottom: 20px;
+}
+
+/* End INFRA */
+
+/* CLEANUP Container */
+
+#CleanUp .cleanUp-container {
+    background-color: #ffff;
+    margin: 40px auto;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    padding: 1px 0px;
+    width: 90%;
+    text-align: center;
+}
+
+#CleanUp .cleanUp-container>div>ul>li {
+    height: 30px;
+    overflow: hidden;
+    /* text-align: left; */
+    /* transition: all 1s ease-in-out; */
+
+}
+
+#CleanUp .cleanUp-container>div>ul>li:hover,
+#CleanUp .cleanUp-container>div>ul>li:focus {
+    height: 100%;
+}
+
+#CleanUp .infra-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#CleanUp .cleanUp-container>div {
+    border: 1px solid #c2ccd6;
+    width: 90%;
+    margin: 5px auto;
+    padding-bottom: 20px;
+}
