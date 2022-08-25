@@ -59,7 +59,7 @@ td {
     font-weight: 600;
 }
 
-
+/* Navbar */
 
 #Nav {
     position: sticky;
@@ -67,10 +67,11 @@ td {
     width: auto;
     z-index: 2;
     background-color: #eaeced;
+
 }
 
 #Navcontainer {
-    background-color: #c2ccd6;
+    background-color: #232F3E;
     width: 100%;
     height: 500px;
     margin: 10px auto;
@@ -85,7 +86,7 @@ td {
 
 #Navcontainer div {
     background-color: #eaeced;
-    box-shadow: 0px 0px 30px 0px #c2ccd6;
+    /* box-shadow: 0px 0px 30px 0px #c2ccd6; */
     width: 200px;
     height: 200px;
     display: flex;
@@ -99,13 +100,14 @@ td {
 
 #Navcontainer div:hover a,
 #Navcontainer div:focus a {
-    color: #025b5a;
+    color: #00557B;
     text-shadow: #232F3E 0px 0px;
 }
 
 #Navcontainer div:hover,
 #Navcontainer div:focus {
-    outline: 4px solid #025b5a;
+    outline: 4px solid #00A890;
+    outline-offset: 4px;
 }
 
 
@@ -399,7 +401,7 @@ td {
     border: 1px solid #c2ccd6;
     border-radius: 40px;
     width: 80%;
-    margin: 0 auto;
+    margin: 6px auto;
 }
 
 .vendor-container .vendors>div.vendor-wrap {
