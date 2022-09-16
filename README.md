@@ -10,6 +10,16 @@ _Although the lessons are worth documenting themselves, this repository is mainl
 
 <hr>
 
+## **Purpose for the application** <br/>
+
+Application helps centralize needed information dispersed between existing sites in order to better manage and monitor each building within a remote setting. <br/>
+
+![application-purpose](Images/readmeMAIN/DesignPurpose.png)
+
+Application also introduces new information, such as floor plans, wifi mapping, network diagrams, inventory/device counter, and vendor information. 
+
+<hr>
+
 ## **Data Model for the project** <br/>
 
 I felt like a non-linear approach to our data structure would serve us best if we are to attempt a NoSQL architecture utillizing MongoDB and JSON parameters <br/>
@@ -49,7 +59,7 @@ Essentially, there are three sections: Form, Fetched-Data, and Map
 Form will act as a collapsable menu that controls what data is viewed within the Fetched-Data section
 Fetched-Data section will have data items that can control the display of the Map section
 
-![design-diagram](Images/readmeMAIN/designGifREADME.gif)
+![design-diagram](Images/readmeMAIN/DesignGifREADME.gif)
 
 <hr>
 
@@ -111,7 +121,7 @@ Fetched-Data section will have data items that can control the display of the Ma
 
 | *New* | *Old* |
 | ----- | ----- |
-| ![](https://github.com/B-Renz/Udemy-WebDev/blob/d7f8584a47cb06e8fb16473aab0fba40e5e8000e/Images/New-CSS-Section1-cropped.gif) | ![](https://github.com/B-Renz/Udemy-WebDev/blob/d7f8584a47cb06e8fb16473aab0fba40e5e8000e/Images/Old-CSS-Section1-cropped.gif) |
+| ![](https://github.com/B-Renz/Udemy-WebDev/blob/5e41b8577d8bb2095d4f383a07b70e8cb6b94030/Images/New-CSS-Section1-cropped.gif) | ![](https://github.com/B-Renz/Udemy-WebDev/blob/d7f8584a47cb06e8fb16473aab0fba40e5e8000e/Images/Old-CSS-Section1-cropped.gif) |
 
 ### Section 2: Box Model and Advanced Properties
 
