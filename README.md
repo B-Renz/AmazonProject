@@ -123,6 +123,27 @@ Fetched-Data section will have data items that can control the display of the Ma
 | ----- | ----- |
 | ![](https://github.com/B-Renz/Udemy-WebDev/blob/5e41b8577d8bb2095d4f383a07b70e8cb6b94030/Images/New-CSS-Section1-cropped.gif) | ![](https://github.com/B-Renz/Udemy-WebDev/blob/d7f8584a47cb06e8fb16473aab0fba40e5e8000e/Images/Old-CSS-Section1-cropped.gif) |
 
-### Section 2: Box Model and Advanced Properties
-
-
+	
+### Section 2: [Box Model and Advanced Properties](#)
+*Focus:*
+1. Box and Flex properties
+2. Responsive Design and Media Queries
+3. Overflows and Transitions
+	
+**Accomplished:**
+- Complete overhaul of the UI
+- Mobile-First implementation 
+- Added responsive navigation
+- Added more content and links to external site data
+- Added counters to devices
+	
+| *New* | *Old* |
+| ----- | ----- |
+| ![](https://github.com/B-Renz/Udemy-WebDev/blob/b3bcf5debbecefbc034b141888d144db6eb6b66a/Images/New-CSS-Section2.gif) | ![](https://github.com/B-Renz/Udemy-WebDev/blob/5e41b8577d8bb2095d4f383a07b70e8cb6b94030/Images/New-CSS-Section1-cropped.gif) |
+	
+	
+**Mobile Implementation:**
+	
+| *Portrait* | *Landscape* |
+| ----- | ----- |
+| ![](https://github.com/B-Renz/Udemy-WebDev/blob/b3bcf5debbecefbc034b141888d144db6eb6b66a/Images/MobilePortrait-CSS-Section2.gif) | ![](https://github.com/B-Renz/Udemy-WebDev/blob/b3bcf5debbecefbc034b141888d144db6eb6b66a/Images/MobileLandscape-CSS-Section2.gif) |
