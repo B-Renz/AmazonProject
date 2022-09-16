@@ -121,7 +121,7 @@ Fetched-Data section will have data items that can control the display of the Ma
 
 | *New* | *Old* |
 | ----- | ----- |
-| ![](https://github.com/B-Renz/Udemy-WebDev/blob/d7f8584a47cb06e8fb16473aab0fba40e5e8000e/Images/New-CSS-Section1-cropped.gif) | ![](https://github.com/B-Renz/Udemy-WebDev/blob/d7f8584a47cb06e8fb16473aab0fba40e5e8000e/Images/Old-CSS-Section1-cropped.gif) |
+| ![](https://github.com/B-Renz/Udemy-WebDev/blob/5e41b8577d8bb2095d4f383a07b70e8cb6b94030/Images/New-CSS-Section1-cropped.gif) | ![](https://github.com/B-Renz/Udemy-WebDev/blob/d7f8584a47cb06e8fb16473aab0fba40e5e8000e/Images/Old-CSS-Section1-cropped.gif) |
 
 ### Section 2: Box Model and Advanced Properties
 
