@@ -27,140 +27,383 @@
     </section>
 
     <section id="Home">
-        <div class="status-container">
-            <h3><span>{$SITE}</span> Status</h3>
-            <div class="status">
-                <div class="status-widget">
-                    <div class="status-title">MDF</div>
-                    <div class="status-mdf"><a href="#">OK</a></div>
+        <div class="homeParent1">
+            <div class="left-container">
+                <div class="status-container">
+                    <h3><span>{$SITE}</span> Status</h3>
+                    <div class="status">
+                        <div class="status-widget">
+                            <div class="status-title">MDF</div>
+                            <div class="status-mdf"><a href="#">OK</a></div>
+                        </div>
+                        <div class="status-widget">
+                            <div class="status-title">IDF</div>
+                            <div class="status-idf"><a href="#">Critical</a></div>
+                        </div>
+                        <div class="status-widget">
+                            <div class="status-title">WIFI</div>
+                            <div class="status-wifi"><a href="#">OK</a></div>
+                        </div>
+                        <div class="status-widget">
+                            <div class="status-title">Tickets</div>
+                            <div class="status-tickets"><a href="#">12</a></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="status-widget">
-                    <div class="status-title">IDF</div>
-                    <div class="status-idf"><a href="#">Critical</a></div>
-                </div>
-                <div class="status-widget">
-                    <div class="status-title">WIFI</div>
-                    <div class="status-wifi"><a href="#">OK</a></div>
-                </div>
-                <div class="status-widget">
-                    <div class="status-title">Tickets</div>
-                    <div class="status-tickets"><a href="#">12</a></div>
+
+                <div class="contacts-containerWIDE">
+                    <h3>Contacts</h3>
+                    <div class="contacts">
+                        <div class="contacts-widget">
+                            <div class="picBorder">
+                                <img class="profilePic"
+                                    src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait10.jpg"
+                                    alt="associate pic">
+                            </div>
+                            <div class="contacts-info">
+                                <div>Site Manager</div>
+                                <div><a href="#">@sbeni</a></div>
+                            </div>
+                        </div>
+                        <div class="contacts-widget">
+                            <div class="picBorder">
+                                <img class="profilePic"
+                                    src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait11.jpg"
+                                    alt="associate pic">
+                            </div>
+                            <div class="contacts-info">
+                                <div>IT Manager</div>
+                                <div><a href="#">@zpenc</a></div>
+                            </div>
+                        </div>
+                        <div class="contacts-widget">
+                            <div class="picBorder">
+                                <img class="profilePic"
+                                    src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait15.jpg"
+                                    alt="associate pic">
+                            </div>
+                            <div class="contacts-info">
+                                <div>Local IT</div>
+                                <div><a href="#">@dmmon</a></div>
+                            </div>
+                        </div>
+                        <div class="contacts-widget">
+                            <div class="picBorder">
+                                <img class="profilePic"
+                                    src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait12.jpg"
+                                    alt="associate pic">
+                            </div>
+                            <div class="contacts-info">
+                                <div>Facilities</div>
+                                <div><a href="#">@ramen</a></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="map-container">
-            <h3>LOCATION</h3>
-            <div class="googlemaps">
-                <div class="map-link-container">
-                    <a class="googlemaps-link" alt="A link to google maps showing 749 Toland Street in San Francisco"
-                        href="https://www.google.com/maps/place/DCK6+Amazon+Delivery+Station/@37.7426623,-122.4020037,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7fbdf0bb575f:0x2133a20fb607bf30!8m2!3d37.7426623!4d-122.399815">400
-                        Littlefield Ave, South San Francisco</a>
+            <div class="map-container">
+                <h3>LOCATION</h3>
+                <div class="googlemaps">
+                    <div class="map-link-container">
+                        <a class="googlemaps-link"
+                            alt="A link to google maps showing 749 Toland Street in San Francisco"
+                            href="https://www.google.com/maps/place/DCK6+Amazon+Delivery+Station/@37.7426623,-122.4020037,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7fbdf0bb575f:0x2133a20fb607bf30!8m2!3d37.7426623!4d-122.399815">400
+                            Littlefield Ave, South San Francisco</a>
+                    </div>
+                    <div>
+                        <img src="https://udemy-webdev.s3.us-west-2.amazonaws.com/MiscImages/MapImage.PNG"
+                            class="googlemaps-img" alt="Map of 749 Toland St San Francisco, CA">
+                    </div>
+                    <div class="siteDetail">
+                        <div>
+                            <div>
+                                <h4>Network</h4>
+                                <div>Off Network</div>
+                                <div>Tennisball</div>
+                                <!-- <div>AMZL</div> -->
+                            </div>
+                            <div>
+                                <h4>Maint. Window </h4>
+                                <div>1200 - 1350</div>
+                                <div>Daily</div>
+                            </div>
+                        </div>
+
+                        <div class="siteDetailTable">
+
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>IDFs</th>
+                                        <th>WAPs</th>
+                                        <th>Online-Devices</th>
+                                        <th>Associates</th>
+                                        <th>RMA</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>49</td>
+                                        <td>557</td>
+                                        <td>311</td>
+                                        <td>RAD13</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <ul>
+                            <li>
+                                <div>+</div>Warehouse is an off-network site requiring VPN connection servicing western
+                                and
+                                southern
+                                peninsula.
+                            </li>
+                            <li>
+                                <div>+</div>Busiest hours are 0600 - 1100 and 1500 - 1900 daily.
+                            </li>
+                            <li>
+                                <div>+</div>Site handles 20k - 50k packages a day
+                            </li>
+                            <li>
+                                <div>+</div>Site is home to Driver Training Team for all AMZL SF Peninsula sites
+                            </li>
+                            <li>
+                                <div>+</div>Site has on-site HR personel
+                            </li>
+                            <li>
+                                <div>+</div>Site has on-site RME from JLL
+                            </li>
+                            <li>
+                                <div>+</div>Site has hazardous waste including electronics waste
+                            </li>
+                            <li>
+                                <div>+</div>Site has 2 Super-Users
+                            </li>
+                        </ul>
+
+
+                    </div>
                 </div>
-                <div>
-                    <img src="https://udemy-webdev.s3.us-west-2.amazonaws.com/MiscImages/MapImage.PNG"
-                        class="googlemaps-img" alt="Map of 749 Toland St San Francisco, CA">
+            </div>.
+            <div class="vendor-containerWIDE">
+                <h3>Vendors</h3>
+                <div class="vendors">
+
+                    <div class="vendor-isp vendor-wrap">
+                        <h4>ISPs</h4>
+                        <div class="vendor-scroll">
+                            <div>
+                                <div class="vendor-name">ATT</div>
+                                <div><a href="tel:123-456-7890">(123) 456-7890</a></div>
+                                <div class="mediaContainer">
+                                    <div><a href="#">SLA</a></div>
+                                    <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="vendor-name">Comcast</div>
+                                <div><a href="tel:321-654-0987">(321) 654-0987</a></div>
+                                <div class="mediaContainer">
+                                    <div><a href="#">SLA</a></div>
+                                    <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vendor-comm vendor-wrap">
+                        <h4>Comm</h4>
+                        <div class="vendor-scroll">
+                            <div>
+                                <div class="vendor-name">IES</div>
+                                <div><a href="tel:+415-455-7899">(415) 455-7899</a></div>
+                                <div class="mediaContainer">
+                                    <div><a href="#">SLA</a></div>
+                                    <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="vendor-name">Cisco</div>
+                                <div><a href="tel:+415-154-3987">(415) 154-3987</a></div>
+                                <div class="mediaContainer">
+                                    <div><a href="#">SLA</a></div>
+                                    <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="vendor-name">Juniper</div>
+                                <div><a href="tel:+321-665-9917">(321) 665-9917</a></div>
+                                <div class="mediaContainer">
+                                    <div><a href="#">SLA</a></div>
+                                    <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vendor-facilities vendor-wrap">
+                        <h4>Facilities</h4>
+                        <div class="vendor-scroll">
+                            <div>
+                                <div class="vendor-name">Mark3</div>
+                                <div><a href="tel:+415-955-7349">(415) 955-7349</a></div>
+                                <div class="mediaContainer">
+                                    <div><a href="#">SLA</a></div>
+                                    <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="vendor-name">JLL</div>
+                                <div><a href="tel:+415-154-3987">(415) 154-3987</a></div>
+                                <div class="mediaContainer">
+                                    <div><a href="#">SLA</a></div>
+                                    <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="contacts-container">
-            <h3>Contacts</h3>
-            <div class="contacts">
-                <div class="contacts-widget">
-                    <img class="profilePic"
-                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait10.jpg"
-                        alt="associate pic">
-                    <div class="contacts-info">
-                        <div>Site Manager</div>
-                        <div><a href="#">@sbeni</a></div>
+
+        </div>
+        <div class="homeParent2">
+            <div class="contacts-container">
+                <h3>Contacts</h3>
+                <div class="contacts">
+                    <div class="contacts-widget">
+                        <div class="picBorder">
+                            <img class="profilePic"
+                                src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait10.jpg"
+                                alt="associate pic">
+                        </div>
+                        <div class="contacts-info">
+                            <div>Site Manager</div>
+                            <div><a href="#">@sbeni</a></div>
+                        </div>
                     </div>
-                </div>
-                <div class="contacts-widget">
-                    <img class="profilePic"
-                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait11.jpg"
-                        alt="associate pic">
-                    <div class="contacts-info">
-                        <div>IT Manager</div>
-                        <div><a href="#">@zpenc</a></div>
+                    <div class="contacts-widget">
+                        <div class="picBorder">
+                            <img class="profilePic"
+                                src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait11.jpg"
+                                alt="associate pic">
+                        </div>
+                        <div class="contacts-info">
+                            <div>IT Manager</div>
+                            <div><a href="#">@zpenc</a></div>
+                        </div>
                     </div>
-                </div>
-                <div class="contacts-widget">
-                    <img class="profilePic"
-                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait15.jpg"
-                        alt="associate pic">
-                    <div class="contacts-info">
-                        <div>Local IT</div>
-                        <div><a href="#">@dmmon</a></div>
+                    <div class="contacts-widget">
+                        <div class="picBorder">
+                            <img class="profilePic"
+                                src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait15.jpg"
+                                alt="associate pic">
+                        </div>
+                        <div class="contacts-info">
+                            <div>Local IT</div>
+                            <div><a href="#">@dmmon</a></div>
+                        </div>
                     </div>
-                </div>
-                <div class="contacts-widget">
-                    <img class="profilePic"
-                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait12.jpg"
-                        alt="associate pic">
-                    <div class="contacts-info">
-                        <div>Facilities</div>
-                        <div><a href="#">@ramen</a></div>
+                    <div class="contacts-widget">
+                        <div class="picBorder">
+                            <img class="profilePic"
+                                src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait12.jpg"
+                                alt="associate pic">
+                        </div>
+                        <div class="contacts-info">
+                            <div>Facilities</div>
+                            <div><a href="#">@ramen</a></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="vendor-container">
+            <h3>Vendors</h3>
             <div class="vendors">
-                <h3>Vendors</h3>
+
                 <div class="vendor-isp vendor-wrap">
                     <h4>ISPs</h4>
-                    <div>
-                        <div class="vendor-name">ATT</div>
-                        <div><a href="tel:123-456-7890">(123) 456-7890</a></div>
-                        <div><a href="#">SLA</a></div>
-                        <div><a href="mailto:abc@example.com">email</a></div>
-                    </div>
-                    <div>
-                        <div class="vendor-name">Comcast</div>
-                        <div><a href="tel:321-654-0987">(321) 654-0987</a></div>
-                        <div><a href="#">SLA</a></div>
-                        <div><a href="mailto:abc@example.com">email</a></div>
+                    <div class="vendor-scroll">
+                        <div>
+                            <div class="vendor-name">ATT</div>
+
+                            <div class="mediaContainer">
+                                <div><a href="tel:123-456-7890">(123) 456-7890</a></div>
+                                <div><a href="#">SLA</a></div>
+                                <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="vendor-name">Comcast</div>
+
+                            <div class="mediaContainer">
+                                <div><a href="tel:321-654-0987">(321) 654-0987</a></div>
+                                <div><a href="#">SLA</a></div>
+                                <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="vendor-comm vendor-wrap">
                     <h4>Comm</h4>
-                    <div>
-                        <div class="vendor-name">IES</div>
-                        <div><a href="tel:415-455-7899">(415) 455-7899</a></div>
-                        <div><a href="#">SLA</a></div>
-                        <div><a href="mailto:abc@example.com">email</a></div>
-                    </div>
-                    <div>
-                        <div class="vendor-name">Cisco</div>
-                        <div><a href="tel:415-154-3987">(415) 154-3987</a></div>
-                        <div><a href="#">SLA</a></div>
-                        <div><a href="mailto:abc@example.com">email</a></div>
-                    </div>
-                    <div>
-                        <div class="vendor-name">Juniper</div>
-                        <div><a href="tel:321-665-9917">(321) 665-9917</a></div>
-                        <div><a href="#">SLA</a></div>
-                        <div><a href="mailto:abc@example.com">email</a></div>
+                    <div class="vendor-scroll">
+                        <div>
+                            <div class="vendor-name">IES</div>
+
+                            <div class="mediaContainer">
+                                <div><a href="tel:+415-455-7899">(415) 455-7899</a></div>
+                                <div><a href="#">SLA</a></div>
+                                <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="vendor-name">Cisco</div>
+
+                            <div class="mediaContainer">
+                                <div><a href="tel:+415-154-3987">(415) 154-3987</a></div>
+                                <div><a href="#">SLA</a></div>
+                                <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="vendor-name">Juniper</div>
+
+                            <div class="mediaContainer">
+                                <div><a href="tel:+321-665-9917">(321) 665-9917</a></div>
+                                <div><a href="#">SLA</a></div>
+                                <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="vendor-facilities vendor-wrap">
                     <h4>Facilities</h4>
-                    <div>
-                        <div class="vendor-name">Mark3</div>
-                        <div><a href="tel:415-955-7349">(415) 955-7349</a></div>
-                        <div><a href="#">SLA</a></div>
-                        <div><a href="mailto:abc@example.com">email</a></div>
-                    </div>
-                    <div>
-                        <div class="vendor-name">JLL</div>
-                        <div><a href="tel:415-154-3987">(415) 154-3987</a></div>
-                        <div><a href="#">SLA</a></div>
-                        <div><a href="mailto:abc@example.com">email</a></div>
+                    <div class="vendor-scroll">
+                        <div>
+                            <div class="vendor-name">Mark3</div>
+
+                            <div class="mediaContainer">
+                                <div><a href="tel:+415-955-7349">(415) 955-7349</a></div>
+                                <div><a href="#">SLA</a></div>
+                                <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="vendor-name">JLL</div>
+
+                            <div class="mediaContainer">
+                                <div><a href="tel:+415-154-3987">(415) 154-3987</a></div>
+                                <div><a href="#">SLA</a></div>
+                                <div><a href="mailto:abc@example.com">EMAIL</a></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -187,6 +430,7 @@
                                         <th>MAC ID</th>
                                         <th>Serial</th>
                                         <th>Asset</th>
+                                        <th>Avail. Ports</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -196,6 +440,7 @@
                                         <td>**5A0C</td>
                                         <td>**8678</td>
                                         <td>**9053</td>
+                                        <td>8, 12, 34-38, 40-42</td>
                                     </tr>
                                     <tr>
                                         <td class="itemdata">ats-2</td>
@@ -203,6 +448,7 @@
                                         <td>**5A1D</td>
                                         <td>**8677</td>
                                         <td>**9054</td>
+                                        <td>8, 12, 34-38, 40-42</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -216,6 +462,7 @@
                                         <th>MAC ID</th>
                                         <th>Serial</th>
                                         <th>Asset</th>
+                                        <th>Avail. Ports</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -225,6 +472,7 @@
                                         <td>**11TA</td>
                                         <td>**1534</td>
                                         <td>**9055</td>
+                                        <td>9, 37-42</td>
                                     </tr>
                                     <tr>
                                         <td class="itemdata">acc-sw-2</td>
@@ -232,6 +480,7 @@
                                         <td>**11TB</td>
                                         <td>**1535</td>
                                         <td>**9056</td>
+                                        <td>9, 37-42</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -245,6 +494,7 @@
                                         <th>MAC ID</th>
                                         <th>Serial</th>
                                         <th>Asset</th>
+                                        <th>Avail. Ports</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -254,6 +504,7 @@
                                         <td>**30DA</td>
                                         <td>**1994</td>
                                         <td>**9060</td>
+                                        <td>3, 5, 39-42</td>
                                     </tr>
                                     <tr>
                                         <td class="itemdata">MAX-PP-2</td>
@@ -261,6 +512,7 @@
                                         <td>**11ZA</td>
                                         <td>**1895</td>
                                         <td>**9061</td>
+                                        <td>3, 5, 39-42</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -273,7 +525,8 @@
                                         <th>Rack</th>
                                         <th>MAC ID</th>
                                         <th>Serial</th>
-                                        <th>Asset</th>
+                                        <th>Asset</th>-
+                                        <th>Avail. Ports</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -283,6 +536,7 @@
                                         <td>**40BC</td>
                                         <td>**1921</td>
                                         <td>**9063</td>
+                                        <td>3, 5, 39-42</td>
                                     </tr>
                                     <tr>
                                         <td class="itemdata">CON-SRV-2</td>
@@ -290,6 +544,7 @@
                                         <td>**13SA</td>
                                         <td>**2345</td>
                                         <td>**9065</td>
+                                        <td>3, 5, 39-42</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -303,6 +558,7 @@
                                         <th>MAC ID</th>
                                         <th>Serial</th>
                                         <th>Asset</th>
+                                        <th>Avail. Ports</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -312,6 +568,7 @@
                                         <td>**30DA</td>
                                         <td>**1994</td>
                                         <td>**9060</td>
+                                        <td>3, 5, 39-42</td>
                                     </tr>
                                     <tr>
                                         <td class="itemdata">COR-SW-2</td>
@@ -319,6 +576,7 @@
                                         <td>**11ZA</td>
                                         <td>**1895</td>
                                         <td>**9061</td>
+                                        <td>3, 5, 39-42</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -332,6 +590,7 @@
                                         <th>MAC ID</th>
                                         <th>Serial</th>
                                         <th>Asset</th>
+                                        <th>Avail. Ports</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -341,6 +600,7 @@
                                         <td>**30DA</td>
                                         <td>**1994</td>
                                         <td>**9060</td>
+                                        <td>3, 5, 39-42</td>
                                     </tr>
                                     <tr>
                                         <td class="itemdata">EDGE-FW-2</td>
@@ -348,6 +608,7 @@
                                         <td>**11ZA</td>
                                         <td>**1895</td>
                                         <td>**9061</td>
+                                        <td>3, 5, 39-42</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -447,6 +708,7 @@
                                             <th>MAC ID</th>
                                             <th>Serial</th>
                                             <th>Asset</th>
+                                            <th>Avail. Ports</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -456,6 +718,7 @@
                                             <td>**30DA</td>
                                             <td>**1994</td>
                                             <td>**9060</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -469,6 +732,7 @@
                                             <th>MAC ID</th>
                                             <th>Serial</th>
                                             <th>Asset</th>
+                                            <th>Avail. Ports</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -478,6 +742,7 @@
                                             <td>**30DA</td>
                                             <td>**1994</td>
                                             <td>**9060</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                         <tr>
                                             <td class="itemdata">MAX-PP-2</td>
@@ -485,6 +750,7 @@
                                             <td>**11ZA</td>
                                             <td>**1895</td>
                                             <td>**9061</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -498,6 +764,7 @@
                                             <th>MAC ID</th>
                                             <th>Serial</th>
                                             <th>Asset</th>
+                                            <th>Avail. Ports</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -507,6 +774,7 @@
                                             <td>**30DA</td>
                                             <td>**1994</td>
                                             <td>**9060</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                         <tr>
                                             <td class="itemdata">ACC-SW-2</td>
@@ -514,6 +782,7 @@
                                             <td>**11ZA</td>
                                             <td>**1895</td>
                                             <td>**9061</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -557,6 +826,7 @@
                                             <th>MAC ID</th>
                                             <th>Serial</th>
                                             <th>Asset</th>
+                                            <th>Avail. Ports</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -566,6 +836,7 @@
                                             <td>**30DA</td>
                                             <td>**1994</td>
                                             <td>**9060</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -579,6 +850,7 @@
                                             <th>MAC ID</th>
                                             <th>Serial</th>
                                             <th>Asset</th>
+                                            <th>Avail. Ports</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -588,6 +860,7 @@
                                             <td>**30DA</td>
                                             <td>**1994</td>
                                             <td>**9060</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                         <tr>
                                             <td class="itemdata">MAX-PP-2</td>
@@ -595,6 +868,7 @@
                                             <td>**11ZA</td>
                                             <td>**1895</td>
                                             <td>**9061</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -608,6 +882,7 @@
                                             <th>MAC ID</th>
                                             <th>Serial</th>
                                             <th>Asset</th>
+                                            <th>Avail. Ports</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -617,6 +892,7 @@
                                             <td>**30DA</td>
                                             <td>**1994</td>
                                             <td>**9060</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                         <tr>
                                             <td class="itemdata">ACC-SW-2</td>
@@ -624,6 +900,7 @@
                                             <td>**11ZA</td>
                                             <td>**1895</td>
                                             <td>**9061</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -668,6 +945,7 @@
                                             <th>MAC ID</th>
                                             <th>Serial</th>
                                             <th>Asset</th>
+                                            <th>Avail. Ports</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -677,6 +955,7 @@
                                             <td>**30DA</td>
                                             <td>**1994</td>
                                             <td>**9060</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -690,6 +969,7 @@
                                             <th>MAC ID</th>
                                             <th>Serial</th>
                                             <th>Asset</th>
+                                            <th>Avail. Ports</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -699,6 +979,7 @@
                                             <td>**30DA</td>
                                             <td>**1994</td>
                                             <td>**9060</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                         <tr>
                                             <td class="itemdata">MAX-PP-2</td>
@@ -706,6 +987,7 @@
                                             <td>**11ZA</td>
                                             <td>**1895</td>
                                             <td>**9061</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -719,6 +1001,7 @@
                                             <th>MAC ID</th>
                                             <th>Serial</th>
                                             <th>Asset</th>
+                                            <th>Avail. Ports</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -728,6 +1011,7 @@
                                             <td>**30DA</td>
                                             <td>**1994</td>
                                             <td>**9060</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                         <tr>
                                             <td class="itemdata">ACC-SW-2</td>
@@ -735,6 +1019,7 @@
                                             <td>**11ZA</td>
                                             <td>**1895</td>
                                             <td>**9061</td>
+                                            <td>3, 5, 39-42</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -770,7 +1055,10 @@
 
             <div class="wifi-container">
                 <div id="Wifi">
-                    <h4>Wifi</h4>
+                    <div class="counter">
+                        <h4>Wifi</h4>
+                        <div class="status-mdf"><a href="#">38</a></div>
+                    </div>
                     <div class="infra-links">
                         <a alt="wap-mapLocation" href="/wapMapLocation">Locations</a>
                         <a alt="wap-diagram" href="/wapDiagram">Diagram</a>
@@ -827,11 +1115,13 @@
     <section id="Devices">
 
         <div class="device-container">
-            <h2>Devices</h2>
+            <h3>Devices</h3>
             <div class="laptop-container">
                 <div id="Laptops">
-
-                    <h3>Laptops</h3>
+                    <div class="counter">
+                        <h4>Laptops</h4>
+                        <div class="status-mdf"><a href="#">48</a></div>
+                    </div>
                     <div class="infra-links">
                         <a alt="laptop-mapLocation" href="/laptopMapLocation">Locations</a>
                     </div>
@@ -926,72 +1216,93 @@
                                                 <td>HP-5CG</td>
                                                 <td>A#******7513</td>
                                                 <td>@**uez</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait1.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder">
+                                                        <img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait1.jpg"
+                                                            alt="associate pic">
+                                                    </div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******5415</td>
                                                 <td>@**ant</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait2.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder">
+                                                        <img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait2.jpg"
+                                                            alt="associate pic">
+                                                    </div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******0979</td>
                                                 <td>@**zzi</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait3.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait3.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******1980</td>
                                                 <td>@**get</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait4.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait4.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******1212</td>
                                                 <td>@**iuz</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait5.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait5.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******3133</td>
                                                 <td>@**kle</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait6.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait6.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******0999</td>
                                                 <td>@**lei</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait7.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait7.jpg"
+                                                            alt="associate pic">
+                                                    </div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******0909</td>
                                                 <td>@**ohe</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait8.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait8.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1013,9 +1324,11 @@
                                                 <td>Macbook</td>
                                                 <td>A#******2121</td>
                                                 <td>@**att</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait9.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait9.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1037,27 +1350,33 @@
                                                 <td>Macbook</td>
                                                 <td>A#******2119</td>
                                                 <td>@**enc</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait10.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait10.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>Macbook</td>
                                                 <td>A#******2120</td>
                                                 <td>@**mon</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait11.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait11.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>Macbook</td>
                                                 <td>A#******2118</td>
                                                 <td>@**nnd</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait12.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait12.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1078,18 +1397,22 @@
                                                 <td>HP-5CG</td>
                                                 <td>A#******9110</td>
                                                 <td>@**enz</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait13.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait13.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******9111</td>
                                                 <td>@**ary</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait14.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait14.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1110,27 +1433,33 @@
                                                 <td>HP-5CG</td>
                                                 <td>A#******2109</td>
                                                 <td>@**eni</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait15.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait15.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******5535</td>
                                                 <td>@**kio</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait16.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait16.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******2229</td>
                                                 <td>@**gan</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait17.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait17.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1151,27 +1480,33 @@
                                                 <td>HP-5CG</td>
                                                 <td>A#******2130</td>
                                                 <td>@**oht</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait18.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait18.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******9535</td>
                                                 <td>@**fee</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait19.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait19.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                             <tr>
 
                                                 <td>HP-5CG</td>
                                                 <td>A#******2009</td>
                                                 <td>@**ygn</td>
-                                                <td><img class="profilePic"
-                                                        src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait2a.jpg"
-                                                        alt="associate pic"></td>
+                                                <td>
+                                                    <div class="picBorder"><img class="profilePic"
+                                                            src="https://udemy-webdev.s3.us-west-2.amazonaws.com/TeamPhotos/portrait2a.jpg"
+                                                            alt="associate pic"></div>
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -1321,7 +1656,10 @@
 
             <div class="avery-container">
                 <div id="AveryPath">
-                    <h3>Avery Pathfinders</h3>
+                    <div class="counter">
+                        <h4>Avery Pathfinders</h4>
+                        <div class="status-mdf"><a href="#">12</a></div>
+                    </div>
                     <div class="infra-links">
                         <a alt="averypath-mapLocation" href="/averypathMapLocation">Locations</a>
                     </div>
@@ -1403,9 +1741,10 @@
 
             <div class="zebra57-container">
                 <div id="Zebra57">
-
-                    <h3>Zebra TC 57 Scanners</h3>
-
+                    <div class="counter">
+                        <h4>Zebra TC 57 Scanners</h4>
+                        <div class="status-mdf"><a href="#">53</a></div>
+                    </div>
                     <div class="infra-links">
                         <a alt="tc57-mapLocation" href="/tc57MapLocation">Locations</a>
                     </div>
@@ -1609,9 +1948,10 @@
 
             <div class="zebraRing-container">
                 <div id="RingScan">
-
-                    <h3>Zebra Ring Scanners</h3>
-
+                    <div class="counter">
+                        <h4>Zebra Ring Scanners</h4>
+                        <div class="status-mdf"><a href="#">57</a></div>
+                    </div>
                     <div class="infra-links">
                         <a alt="ringscan-mapLocation" href="/ringscanMapLocation">Locations</a>
                     </div>
@@ -1827,7 +2167,10 @@
 
             <div class="tablets-container">
                 <div id="Tablets">
-                    <h3>Tablets</h3>
+                    <div class="counter">
+                        <h4>Tablets</h4>
+                        <div class="status-mdf"><a href="#">42</a></div>
+                    </div>
 
                     <div class="infra-links">
                         <a alt="tablet-mapLocation" href="/tabletMapLocation">Locations</a>
@@ -2020,8 +2363,10 @@
 
             <div class="printers-container">
                 <div id="Printers">
-                    <h3>Printers</h3>
-
+                    <div class="counter">
+                        <h4>Printers</h4>
+                        <div class="status-mdf"><a href="#">09</a></div>
+                    </div>
                     <div class="infra-links">
                         <a alt="printer-mapLocation" href="/printerMapLocation">Locations</a>
                     </div>
@@ -2132,7 +2477,10 @@
 
             <div class="periph-container">
                 <div id="Peripherals">
-                    <h3>Peripherals</h3>
+                    <div class="counter">
+                        <h4>Peripherals</h4>
+                        <div class="status-mdf"><a href="#">112</a></div>
+                    </div>
                     <ul>
                         <li><span class="list">Batteries</span> </li>
                         <li><span class="list">Cables/Adapters</span> </li>
@@ -2155,7 +2503,10 @@
     </section>
     <section id="CleanUp">
         <div class="cleanUp-container">
-            <h2>Clean-Up</h2>
+            <div class="counter">
+                <h3>Clean-Up</h3>
+                <div class="status-mdf"><a href="#">18</a></div>
+            </div>
             <div>
                 <ul>
                     <li><span class="list">IT Equip Inbound</span>
@@ -2269,9 +2620,8 @@
 
     <footer>
         <div id="Footer">
-            <ul>
-                <a alt="Link to top" href="#top">Back to Top</a>
-                <a alt="Link to map" href="#map">Site Map</a>
+            <a alt="Link to top" href="#top">Back to Top</a>
+            <a alt="Link to map" href="#map">Site Map</a>
         </div>
     </footer>
 
