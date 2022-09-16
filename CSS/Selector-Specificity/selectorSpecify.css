@@ -1,12 +1,12 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f3ee;
+    background-color: #ffff;
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
-    color: #34a0a4
+    color: #00A890;
 }
 
 a:hover {
@@ -22,7 +22,8 @@ th {
     font-weight: 100;
     font-size: smaller;
     padding: 0 15px 0 15px;
-    background-color: #e4e3dc;
+    background-color: #232F3E;
+    color: #ffff;
     font-style: italic;
 }
 
@@ -42,12 +43,13 @@ td {
 }
 
 td.itemdata {
-    color: #34a0a4;
+    color: #00A890;
 }
 
 #HeaderForm {
     padding-bottom: 20px;
-    box-shadow: 0px 15px 10px #e4e3dc;
+
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
 .googlemaps-img {
@@ -66,7 +68,8 @@ td.itemdata {
 }
 
 .headFormButton {
-    background-color: #34a0a4;
+    background-color: #232F3E;
+    color: #ffff;
     font-size: large;
     font-weight: bold;
 }
@@ -80,21 +83,25 @@ td.itemdata {
 }
 
 #Mdf {
-    box-shadow: 0px 5px 10px #e4e3dc;
+
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
 #Idf {
-    box-shadow: 0px 5px 10px #e4e3dc;
+
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     padding-top: 5px;
 }
 
 #Wifi {
-    box-shadow: 0px 10px 10px #e4e3dc;
+
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     padding-top: 5px;
 }
 
 #Devices {
-    box-shadow: 0px 10px 10px #e4e3dc;
+
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
     padding-top: 5px;
 }
 
