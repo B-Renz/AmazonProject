@@ -398,7 +398,7 @@ td {
 .map-container .googlemaps div>img.googlemaps-img {
     display: block;
     height: 100%;
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
     border-radius: 20px;
     scale: .9;
@@ -715,6 +715,26 @@ img.profilePic {
 /* End Footer */
 /* ---------- */
 
+.counter {
+    position: relative;
+}
+
+.counter div {
+    position: absolute;
+    top: 3px;
+    right: 7px;
+    z-index: 2;
+    /* justify-content: center; */
+    margin-bottom: 15px;
+
+}
+
+.counter div a {
+    padding: 3px 15px;
+    border-radius: 15px;
+    color: #00A890;
+    font-weight: 900;
+}
 
 /* ------------- */
 /* MEDIA QUERIES */
@@ -848,26 +868,7 @@ img.profilePic {
         width: 90%;
     }
 
-    .counter {
-        position: relative;
-    }
 
-    .counter div {
-        position: absolute;
-        top: 3px;
-        right: 7px;
-        z-index: 2;
-        /* justify-content: center; */
-        margin-bottom: 15px;
-
-    }
-
-    .counter div a {
-        padding: 3px 15px;
-        border-radius: 15px;
-        color: #00A890;
-        font-weight: 900;
-    }
 
 
 }
@@ -1194,7 +1195,7 @@ img.profilePic {
 
 
     .map-container .googlemaps div>img.googlemaps-img {
-        width: 300px;
+        width: 350px;
         margin: 0 auto;
     }
 
