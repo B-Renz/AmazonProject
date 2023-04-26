@@ -1,12 +1,7 @@
 # **Visualize Inventory Tracking and Asset Management for a Distribution Warehouse** <br/>
 
-**Creating my own project from this course** <br/>
-[https://www.udemy.com/course/the-web-developer-bootcamp/](https://www.udemy.com/course/the-web-developer-bootcamp/) <br/>
-
-Course is divided into multiple sections that require progressions of skillset from the previous lesson in order to move forward into the next lesson.<br/>
-
 _**Note:**_ <br/>
-_Although the lessons are worth documenting themselves, this repository is mainly focused on one project and how that project was used to exemplify the progression of skillsets needed to continue moving forward in this course._ <br/>
+_This repository is mainly focused on one project and how that project was used to exemplify the progression of skillsets needed to continue moving forward in this course._ <br/>
 
 <hr>
 
