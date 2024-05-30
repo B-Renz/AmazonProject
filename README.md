@@ -21,31 +21,10 @@ I felt like a non-linear approach to our data structure would serve us best if w
 
 I felt like a divide and conquor strategy would be best for the architecture of this database model, so I went with a Binary Search Tree (BST) and designed it as balanced.
 
-**I'll continue to build on this as I progress into this project, even though this is not part of any lesson within the Udemy WebDev course*
+**I'll continue to build on this as I progress into this project
 
 ![data-model-main](Images/readmeMAIN/data-model-main.png)
 
-<hr>
-
-Each Section quickly summarizes the scope of the lesson to get a better understanding of each phase in the project:
-- **[HTML](/HTML)** [[The Essentials](HTML/README.md/#section-1-the-essentials), [Semantics](HTML/README.md/#section-2-semantics), [Forms and Tables](HTML/README.md/#section-3-forms-tables)]
-- **[CSS](/CSS)** [[Basics and Selectors](https://github.com/B-Renz/Udemy-WebDev/tree/main/CSS#section-1-basics-selectors-and-specificity), Box/FlexBox Model and Advanced Properties, Frameworks and Bootstrap] ***[Bonus](https://github.com/B-Renz/Udemy-WebDev/tree/main/CSS/Buttons)***: buttons (contribute!)
-- Javascript [Basics, Strings and More, Decision Making, Arrays, Object Literals, Functions, Callbacks and Array Methods, Advanced]
-- DOM
-- Score Keeper
-- Async Javascript
-- AJAX and APIs
-- Prototypes, Classes and OOP
-- Node JS
-- JSON
-- Express
-- Templating
-- RESTful APIs
-- MongoDB
-- Mongoose with Express
-- YelpCamp [CRUD, Basic Styles, Errors and Validating Errors, Reviews Modeling, Restructuring and Flash, Authentication, Authorization, Deploying]
-
-<hr>
 
 ## **Design Layout** <br/>
 This is just a basic design layout to get things started. 
@@ -114,9 +93,9 @@ Fetched-Data section will have data items that can control the display of the Ma
 - Added google maps image and employee profile pictures
 - Created box shadows to separate sections
 
-| *New* | *Old* |
-| ----- | ----- |
-| ![](https://github.com/B-Renz/Udemy-WebDev/blob/5e41b8577d8bb2095d4f383a07b70e8cb6b94030/Images/New-CSS-Section1-cropped.gif) | ![](https://github.com/B-Renz/Udemy-WebDev/blob/d7f8584a47cb06e8fb16473aab0fba40e5e8000e/Images/Old-CSS-Section1-cropped.gif) |
+| *** | 
+| ----- | 
+| ![](https://github.com/B-Renz/Udemy-WebDev/blob/5e41b8577d8bb2095d4f383a07b70e8cb6b94030/Images/New-CSS-Section1-cropped.gif) |
 
 	
 ### Section 2: [Box Model and Advanced Properties](#)
@@ -132,9 +111,9 @@ Fetched-Data section will have data items that can control the display of the Ma
 - Added more content and links to external site data
 - Added counters to devices
 	
-| *New* | *Old* |
-| ----- | ----- |
-| ![](https://github.com/B-Renz/Udemy-WebDev/blob/b3bcf5debbecefbc034b141888d144db6eb6b66a/Images/New-CSS-Section2.gif) | ![](https://github.com/B-Renz/Udemy-WebDev/blob/5e41b8577d8bb2095d4f383a07b70e8cb6b94030/Images/New-CSS-Section1-cropped.gif) |
+| *** | 
+| ----- | 
+| ![](https://github.com/B-Renz/Udemy-WebDev/blob/b3bcf5debbecefbc034b141888d144db6eb6b66a/Images/New-CSS-Section2.gif) |
 	
 	
 **Mobile Implementation:**
